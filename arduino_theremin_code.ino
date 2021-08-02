@@ -1,22 +1,6 @@
 /*
-  This projects is a theremin created with two ultrasonic sensors, one controls the frequency (tone) and the other controls the amplitude (volume).
-  This project is a fork of two projects:
-    - https://create.arduino.cc/projecthub/opus9/theremino-f72d32 (this project had library conflicts)
-    - https://create.arduino.cc/projecthub/jvmccall/ultrasonic-theremin-033d6f (this project had typo errors in the code and a mistake in the schema)
-  Resource on controlling similar potentiometer using SPI protocol, provides example code and electrical setup: http://www.learningaboutelectronics.com/Articles/MCP4131-digital-potentiometer-circuit.php
-*/
-
-/*                                                                                                                                                                                                                                               
- Potentiometer conecctions:
- 1 - Arduino pin ~9
- 2 - Speaker +
- 3 - GND
- 4 - 5V
- 5 - Arduino pin ~10
- 6 - Arduino pin 13
- 7 - Arduino pin ~11
- 8 - GND
- More info https://app.ultralibrarian.com/details/23D04BE7-10A0-11E9-AB3A-0A3560A4CCCC/Microchip/MCP4161-103E-P
+  Edited by Dhruv Hegde
+  Last Edited: 8/2/2021
 */
 
 // NewTone is used to avoid the timer incompatibiliy of Tone with NewPing. Download https://bitbucket.org/teckel12/arduino-new-tone/downloads/ and import .zip
